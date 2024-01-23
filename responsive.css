@@ -1,0 +1,74 @@
+/* common styles */
+body {
+    font-family: 'Manrope', sans-serif;
+    margin: 0;
+}
+.txt-primary{
+    color: #FF4240;
+}
+
+.p-cl{
+   color: rgba(19, 19, 24, 0.60);
+}
+
+/* flex section related css */
+
+.hockey-1{
+    background-image: url(Images/2.png);
+    background-repeat: no-repeat;
+}
+.hockey-2{
+    background-image: url(Images/3.png);
+    background-repeat: no-repeat;
+
+}
+.hockey-3{
+    background-image: url(Images/4.png);
+    background-repeat: no-repeat;
+
+}
+/* flex section end */
+
+/* price section related css */
+
+.product-mart{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+}
+.product-mart p{
+    width:25px;
+    margin-right: 8px;
+    text-align: left;
+    flex-grow: unset;
+}
+.card-hover:hover{
+    scale: calc(1.05);
+    cursor: pointer;
+    transition: 400ms;
+}
+.box-border{
+    border: 2px solid rgba(19, 19, 24, 0.10);
+}
+/* price section css end */
+
+
+/* equipment section related css */
+.mail-box{
+    border: 2px solid rgba(19, 19, 24, 0.10);
+}
+.social-box{
+    border: 2px solid rgba(19, 19, 24, 0.10);
+}
+.telipic{
+    background-image: url(Images/bg1.png);
+    background-size: cover;
+    border-radius: 16px;
+}
+.telipic-2{
+    background-image: url(Images/bg2.png);
+    background-size: cover;
+    border-radius: 16px;
+}
