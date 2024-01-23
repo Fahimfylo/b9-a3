@@ -32,24 +32,26 @@
                         </div>
                         <ul tabindex="0"
                             class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Home</a></li>
+                            <li><a class="col">Home</a></li>
                             <li><a>About</a></li>
                             <li><a>Pages</a></li>
                             <li><a>Blog</a></li>
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl">Hockey</a>
+                    <a class="btn btn-ghost text-xl">Hockey<span class="col">’</span>s</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li>
-                        <li><a>Item 3</a></li>
+                        <li><a class="col"> Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn bg-[#ff4240]">Get ticket</a>
+                    <a class="btn bg-[#ff4240] text-white">Get ticket</a>
                 </div>
             </div>
         </section>
@@ -355,7 +357,7 @@
         </section>
         <section class="container">
             <hr class="my-14 m-12 ">
-            <!--  -->
+            <!-- get in touch section  -->
             <div class="text-center ff m-12">
                 <h1 class="text-2xl font-extrabold">
                     Get In Touch
@@ -367,33 +369,52 @@
             <!--  -->
             <hr class="my-14 m-12 ">
             <div class=" flex gap-6 flex-col lg:flex-row">
-                <div class=" social-box rounded-2xl">
-                    <div class="p-6">
-                        <div class="telipic px-6 py-6 ">
-                            <img src="Images/teli.png" alt="">
+                <div class=" p-6 social-box rounded-2xl flex flex-col gap-6 ">
+                    <div class="bg-[#BCED6D1A] rounded-2xl">
+                        <div class=" px-6 py-6 ">
+                            <img src="images/teli.png" alt="">
                             <p class=" py-6  font-normal text-base p-cl ">
                                 Phone Number :</p>
                             <p class=" ff text-lg font-extrabold ">(+62) 123 321 543</p>
                         </div>
                     </div>
-                    <div class="p-6">
-                        <div class="telipic px-6 py-6">
-                            <img src="Images/letter.png" alt="">
+                    <div class=" bg-[#BCED6D1A] rounded-2xl ">
+                        <div class=" px-6 py-6">
+                            <img src="images/letter.png" alt="">
                             <p class=" py-6  font-normal text-base p-cl ">
                                 Email :</p>
                             <p class=" ff text-lg font-extrabold ">hockeys@gmail.com</p>
                         </div>
                     </div>
-                    <div class="p-6 pb-6">
-                        <div class="telipic-2 px-6 py-6">
-                            <img src="Images/location.png" alt="">
-                            <p class=" py-6  font-normal text-base p-cl ">
-                                Location :</p>
+                    <div class=" bg-[#629CF31A] rounded-2xl ">
+                        <div class=" telipic-2 px-6 py-6">
+                            <img src="images/glocation.png" alt="">
+                            <p class=" py-6  font-normal text-base p-cl ">Location :</p>
                             <p class=" ff text-lg font-extrabold">152/1 Mohakhali wireless gate</p>
                         </div>
                     </div>
                 </div>
-                <div class="touch">                
+                <div class="touch grid gap-5 grid-cols-1 lg:grid-cols-2 ">   
+                    <div>
+                        <h1 class="text-xl font-bold pb-4">Your Name</h1>
+                        <input type="text" placeholder="Enter your full name" class=" p-5 rounded-2xl w-full ">
+                    </div>             
+                    <div>
+                        <h1 class="text-xl font-bold pb-4 ">Your Email</h1>
+                        <input type="email" placeholder="Enter your email" class=" p-5 rounded-2xl w-full ">
+                    </div>             
+                    <div>
+                        <h1 class="text-xl font-bold pb-4 ">Subject</h1>
+                        <input type="text" placeholder="Enter your subject" class=" p-5 rounded-2xl w-full ">
+                    </div>             
+                    <div>
+                        <h1 class="text-xl font-bold pb-4 ">Phone Number</h1>
+                        <input type="number" placeholder="Enter your number" class=" p-5 rounded-2xl w-full ">
+                    </div>             
+                    <div class="lg:col-span-2">
+                        <h1 class="text-xl font-bold pb-4">Message</h1>
+                        <input type="text" placeholder="Write your message" class=" p-5 rounded-2xl w-full lg:pb-[327px] ">
+                    </div>          
                 </div>
             </div>
         </section>

@@ -10,6 +10,10 @@ body {
 .p-cl{
    color: rgba(19, 19, 24, 0.60);
 }
+.col{
+    color: #FF4240;
+
+}
 
 /* flex section related css */
 
@@ -57,7 +61,6 @@ body {
 }
 /* price section css end */
 
-
 /* equipment section related css */
 .mail-box{
     border: 2px solid rgba(19, 19, 24, 0.10);
@@ -65,13 +68,13 @@ body {
 .social-box{
     border: 2px solid rgba(19, 19, 24, 0.10);
 }
-.telipic{
-    background-image: url(Images/bg1.png);
+/* .telipic { */
+    background-image: url(images/teliphone.png);
     background-size: cover;
     border-radius: 16px;
 }
-.telipic-2{
-    background-image: url(Images/bg2.png);
+/* .telipic-2 { */
+    background-image: url(images/location.png);
     background-size: cover;
     border-radius: 16px;
 }
