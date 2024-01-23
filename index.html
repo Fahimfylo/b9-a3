@@ -16,10 +16,10 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="mx-auto">
     <!-- header -->
-    <header class="container mx-auto">
-        <section>
+    <header class=" mx-auto">
+        <section class="container">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -57,13 +57,20 @@
     <!-- header end -->
     <!-- main -->
     <main class="m-5">
-        <section>
+        <section class="container">
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
-                    <img src="images/banner.png" class="w-full" />
+                    <img src="images/banner.png" class="w-full"/>
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide4" class="btn btn-circle">❮</a>
-                        <a href="#slide2" class="btn btn-circle">❯</a>
+                        <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-0">❮</a>
+                        <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-0 ">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/banner.png" class="w-full"/>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-0 ">❮</a>
+                        <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-0 ">❯</a>
                     </div>
                 </div>
             </div>
@@ -73,24 +80,24 @@
                     Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam
                     proin</p>
             </div>
+            <div class="divider container "></div>
         </section>
-        <hr class="my-14">
-        <div class="text-black mx-14  text-center ">
-            <h2 class="text-xl font-extrabold ">Professional Hockeys Club</h2>
-            <p class="text-sm font-medium py-4 p-cl">Dit amet consectetur. Condimentum dignissim adipiscing
-                aliquam turpis placerat dolor. Purus urna in sit nullam proin</p>
-        </div>
-        
-        <div class="divider"></div>
-        <!--  -->
-        <section>
-            <div class=" p-6 flex lg:flex-row flex-col"> 
+        <section class="container">
+            <div class="text-black mx-14  text-center ">
+                <h2 class="text-xl font-extrabold ">Professional Hockeys Club</h2>
+                <p class="text-sm font-medium py-4 p-cl">Dit amet consectetur. Condimentum dignissim adipiscing
+                    aliquam turpis placerat dolor. Purus urna in sit nullam proin</p>
+            </div>
+            <div class="divider"></div>
+            <div class=" p-6 flex lg:flex-row flex-col">
                 <div class="text-center">
-                    <div class=" text-[#FF4240] radial-progress" style="--value:87; --size:7.5rem; --thickness: 0.8rem;">
+                    <div class=" text-[#FF4240] radial-progress"
+                        style="--value:87; --size:7.5rem; --thickness: 0.8rem;">
                         <span class="text-black font-extrabold text-1xl ">87%</span>
                     </div>
                     <h1 class=" font-bold text-xl  ">Prayer Facility</h1>
-                    <p class=" font-normal text-base text-[#13131899] ">Amet consectetur Condimentum dignissim adipiscing
+                    <p class=" font-normal text-base text-[#13131899] ">Amet consectetur Condimentum dignissim
+                        adipiscing
                     </p>
                 </div>
                 <div class="text-center ">
@@ -118,6 +125,8 @@
                     </p>
                 </div>
             </div>
+        </section>
+        <section class="container">
             <hr class="my-14">
             <div class="text-center">
                 <h1 class=" ff text-black font-extrabold text-2xl ">Program Sections</h1>
@@ -125,38 +134,32 @@
                     turpis placerat dolor. Purus urna in sit nullam proin</p>
             </div>
             <hr class="my-14">
-        </section>
-        <section>
-            <div class="gird grid-cols-1 lg:grid-cols-2 ">
-                <div class="hockey-1 rounded-xl my-6 ">
-                    <h1 class="py-6 px-6  font-extrabold text-white text-xl">Junior Program</h1>
-                    <p class="px-6 text-white ff text-sm font-medium ">Dolor sit amet consectetur. Ut urna diam quis
-                        sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi
-                        nulla</p>
-                    <div class=" p-7">
-                        <button class=" btn btn-secondary ff text-lg font-bold text-white bg-red-500 border-none">Register
-                            Now</button>
-                    </div>
+            <div class="grid  grid-cols-1 gap-6 lg:grid-cols-2 ">
+                <div class="hockey-1 rounded-xl p-6 lg:p-10 ">
+                    <h1 class=" font-extrabold text-white text-xl lg:pt-[55px]">Junior Program </h1>
+                    <p class=" text-white text-sm font-medium mt-2 mb-4 lg:w-2/3">Dolor sit amet consectetur. Ut urna diam quis
+                        sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet 
+                    </p>
+                        <button
+                            class=" btn ff text-lg font-bold text-white bg-red-500 border-none">Register Now 
+                        </button>                    
                 </div>
-                <div class="hockey-2 my-6 rounded-xl my-6">
-                    <h1 class="py-6 px-6 ff font-extrabold text-white text-xl">Teenager Program</h1>
-                    <p class="px-6 text-white ff text-sm font-medium ">Dolor sit amet consectetur. Ut urna diam quis
-                        sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi
-                        nulla</p>
-                    <div class=" p-7">
-                        <button class=" btn btn-secondary ff text-lg font-bold text-white bg-red-500 border-none">Register
-                            Now</button>
-                    </div>
+                <div class="hockey-2 rounded-xl p-6 lg:p-10">
+                    <h1 class=" font-extrabold text-white text-xl lg:pt-[55px] ">Teenager Program </h1>
+                    <p class=" text-white text-sm font-medium mt-2 mb-4 lg:w-2/3 ">Dolor sit amet consectetur. Ut urna diam quis
+                        sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet 
+                    </p>
+                        <button
+                            class=" btn ff text-lg font-bold text-white bg-red-500 border-none">Register Now 
+                        </button>                    
                 </div>
-                <div class="hockey-3 my-6 rounded-xl my-6 lg:col-span-2">
-                    <h1 class="py-6 px-6 ff font-extrabold text-white text-xl">Professional Program</h1>
-                    <p class="px-6 text-white ff text-sm font-medium ">Dolor sit amet consectetur. Ut urna diam quis
-                        sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi
-                        nulla</p>
-                    <div class=" p-7">
-                        <button class=" btn btn-secondary ff text-lg font-bold text-white bg-red-500 border-none">Register
-                            Now</button>
-                    </div>
+                <div class="hockey-3 rounded-xl p-6 lg:col-span-2 lg:p-10">
+                    <h1 class=" font-extrabold text-white text-xl lg:pt-[55px] ">Professional Program </h1>
+                    <p class=" text-white text-sm font-medium mt-2 mb-4 lg:w-1/2 ">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet 
+                    </p>
+                        <button
+                            class=" btn ff text-lg font-bold text-white bg-red-500 border-none">Register Now 
+                        </button>                    
                 </div>
             </div>
             <hr class="my-14">
@@ -166,7 +169,7 @@
                     turpis placerat dolor. Purus urna in sit nullam proin</p>
             </div>
         </section>
-        <section>
+        <section class="container">
             <hr class="my-14">
             <!--  Price products  -->
             <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
@@ -305,15 +308,16 @@
             </div>
             <!-- Price product end -->
         </section>
-        <hr class="my-14">
-        <div class="text-center ff ">
-            <h1 class=" py-4  font-extrabold text-black text-2xl">Clients Question</h1>
-            <p class=" p-cl text-sm font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-                turpis placerat dolor. Purus urna in sit nullam proin</p>
-        </div>
-        <hr class="my-6">
-        <!-- equipment section -->
-        <section>
+        <section class="container">
+            <hr class="my-14">
+            <div class="text-center ff ">
+                <h1 class=" py-4  font-extrabold text-black text-2xl">Clients Question</h1>
+                <p class=" p-cl text-sm font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+                    turpis placerat dolor. Purus urna in sit nullam proin</p>
+            </div>
+            <hr class="my-6">
+            <!-- equipment section -->
+
             <div class="mail-box rounded-2xl">
                 <div>
                     <img src="Images/mailpic.png" alt="" class=" px-6 py-6">
@@ -347,8 +351,11 @@
                     <img src="Images/plusicon.png" alt="">
                 </div>
                 <!-- equipment section end -->
-            </div>
+            </div>    
+        </section>
+        <section class="container">
             <hr class="my-14 m-12 ">
+            <!--  -->
             <div class="text-center ff m-12">
                 <h1 class="text-2xl font-extrabold">
                     Get In Touch
@@ -357,33 +364,36 @@
                     aliquam turpis placerat dolor. Purus urna in sit nullam proin
                 </p>
             </div>
+            <!--  -->
             <hr class="my-14 m-12 ">
-        </section>
-        <section>
-            <div class=" social-box rounded-2xl">
-                <div class="p-6">
-                    <div class="telipic px-6 py-6 ">
-                        <img src="Images/teli.png" alt="">
-                        <p class=" py-6  font-normal text-base p-cl ">
-                            Phone Number :</p>
-                        <p class=" ff text-lg font-extrabold ">(+62) 123 321 543</p>
+            <div class=" flex gap-6 flex-col lg:flex-row">
+                <div class=" social-box rounded-2xl">
+                    <div class="p-6">
+                        <div class="telipic px-6 py-6 ">
+                            <img src="Images/teli.png" alt="">
+                            <p class=" py-6  font-normal text-base p-cl ">
+                                Phone Number :</p>
+                            <p class=" ff text-lg font-extrabold ">(+62) 123 321 543</p>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="telipic px-6 py-6">
+                            <img src="Images/letter.png" alt="">
+                            <p class=" py-6  font-normal text-base p-cl ">
+                                Email :</p>
+                            <p class=" ff text-lg font-extrabold ">hockeys@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="p-6 pb-6">
+                        <div class="telipic-2 px-6 py-6">
+                            <img src="Images/location.png" alt="">
+                            <p class=" py-6  font-normal text-base p-cl ">
+                                Location :</p>
+                            <p class=" ff text-lg font-extrabold">152/1 Mohakhali wireless gate</p>
+                        </div>
                     </div>
                 </div>
-                <div class="p-6">
-                    <div class="telipic px-6 py-6">
-                        <img src="Images/letter.png" alt="">
-                        <p class=" py-6  font-normal text-base p-cl ">
-                            Email :</p>
-                        <p class=" ff text-lg font-extrabold ">hockeys@gmail.com</p>
-                    </div>
-                </div>
-                <div class="p-6 pb-6">
-                    <div class="telipic-2 px-6 py-6">
-                        <img src="Images/location.png" alt="">
-                        <p class=" py-6  font-normal text-base p-cl ">
-                            Location :</p>
-                        <p class=" ff text-lg font-extrabold">152/1 Mohakhali wireless gate</p>
-                    </div>
+                <div class="touch">                
                 </div>
             </div>
         </section>
